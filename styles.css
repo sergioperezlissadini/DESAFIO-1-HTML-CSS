@@ -1,7 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  font-family: 'Spartan', sans-serif;
+}
+
+.container {
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------------------Hedear-------------------------*/
+header {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 64px 30px 64px;
+}
+
+header p {
+  color: hsl(303, 10%, 53%);
+  text-align: center;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 28px 0 28px;
+
+}
+
+/* ---------------------Stars-------------------------*/
+
+
+.starcontainer
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.stars {
+  background-color: hsl(300, 19%, 81%);
+  border-radius: 4px;
+  margin: 8px 0;
+  width: 330px;
+  height: 80px;
+  padding: 15px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ---------------------Footer-------------------------*/
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
